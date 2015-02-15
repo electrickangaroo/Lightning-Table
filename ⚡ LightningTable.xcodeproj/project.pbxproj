@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13A206F1199E1998000CD69F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A206F0199E1998000CD69F /* Foundation.framework */; };
+		13A206F6199E1998000CD69F /* LightningTable.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13A206F5199E1998000CD69F /* LightningTable.h */; };
+		13A206FF199E1998000CD69F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A206FE199E1998000CD69F /* XCTest.framework */; };
+		13A20700199E1998000CD69F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A206F0199E1998000CD69F /* Foundation.framework */; };
+		13A20702199E1998000CD69F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A20701199E1998000CD69F /* UIKit.framework */; };
+		13A20705199E1998000CD69F /* libLightningTable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A206ED199E1998000CD69F /* libLightningTable.a */; };
+		13A2070B199E1998000CD69F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13A20709199E1998000CD69F /* InfoPlist.strings */; };
+		13A2070D199E1998000CD69F /* LightningTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A2070C199E1998000CD69F /* LightningTableTests.m */; };
+		13A20724199E19D5000CD69F /* EKTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A20717199E19D5000CD69F /* EKTableRow.m */; };
+		13A20725199E19D5000CD69F /* EKTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A20717199E19D5000CD69F /* EKTableRow.m */; };
+		13A20726199E19D5000CD69F /* EKTableRowSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A2071A199E19D5000CD69F /* EKTableRowSelection.m */; };
+		13A20727199E19D5000CD69F /* EKTableRowSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A2071A199E19D5000CD69F /* EKTableRowSelection.m */; };
+		13A20728199E19D5000CD69F /* EKTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A2071C199E19D5000CD69F /* EKTableSection.m */; };
+		13A20729199E19D5000CD69F /* EKTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A2071C199E19D5000CD69F /* EKTableSection.m */; };
+		13A2072A199E19D5000CD69F /* EKTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A2071F199E19D5000CD69F /* EKTableView.m */; };
+		13A2072B199E19D5000CD69F /* EKTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A2071F199E19D5000CD69F /* EKTableView.m */; };
+		13A2072C199E19D5000CD69F /* EKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A20721199E19D5000CD69F /* EKTableViewCell.m */; };
+		13A2072D199E19D5000CD69F /* EKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A20721199E19D5000CD69F /* EKTableViewCell.m */; };
+		13A2072E199E19D5000CD69F /* EKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A20723199E19D5000CD69F /* EKTableViewController.m */; };
+		13A2072F199E19D5000CD69F /* EKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A20723199E19D5000CD69F /* EKTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13A20703199E1998000CD69F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13A206E5199E1998000CD69F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13A206EC199E1998000CD69F;
+			remoteInfo = LightningTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		13A206EB199E1998000CD69F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				13A206F6199E1998000CD69F /* LightningTable.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		13A206ED199E1998000CD69F /* libLightningTable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLightningTable.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A206F0199E1998000CD69F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13A206F4199E1998000CD69F /* LightningTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LightningTable-Prefix.pch"; sourceTree = "<group>"; };
+		13A206F5199E1998000CD69F /* LightningTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightningTable.h; sourceTree = "<group>"; };
+		13A206FD199E1998000CD69F /* LightningTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightningTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A206FE199E1998000CD69F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		13A20701199E1998000CD69F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		13A20708199E1998000CD69F /* LightningTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightningTableTests-Info.plist"; sourceTree = "<group>"; };
+		13A2070A199E1998000CD69F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13A2070C199E1998000CD69F /* LightningTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightningTableTests.m; sourceTree = "<group>"; };
+		13A20716199E19D5000CD69F /* EKTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableRow.h; sourceTree = "<group>"; };
+		13A20717199E19D5000CD69F /* EKTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTableRow.m; sourceTree = "<group>"; };
+		13A20718199E19D5000CD69F /* EKTableRowProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableRowProtocol.h; sourceTree = "<group>"; };
+		13A20719199E19D5000CD69F /* EKTableRowSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableRowSelection.h; sourceTree = "<group>"; };
+		13A2071A199E19D5000CD69F /* EKTableRowSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTableRowSelection.m; sourceTree = "<group>"; };
+		13A2071B199E19D5000CD69F /* EKTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableSection.h; sourceTree = "<group>"; };
+		13A2071C199E19D5000CD69F /* EKTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTableSection.m; sourceTree = "<group>"; };
+		13A2071D199E19D5000CD69F /* EKTableSectionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableSectionProtocol.h; sourceTree = "<group>"; };
+		13A2071E199E19D5000CD69F /* EKTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableView.h; sourceTree = "<group>"; };
+		13A2071F199E19D5000CD69F /* EKTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTableView.m; sourceTree = "<group>"; };
+		13A20720199E19D5000CD69F /* EKTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableViewCell.h; sourceTree = "<group>"; };
+		13A20721199E19D5000CD69F /* EKTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTableViewCell.m; sourceTree = "<group>"; };
+		13A20722199E19D5000CD69F /* EKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableViewController.h; sourceTree = "<group>"; };
+		13A20723199E19D5000CD69F /* EKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13A206EA199E1998000CD69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A206F1199E1998000CD69F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A206FA199E1998000CD69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A206FF199E1998000CD69F /* XCTest.framework in Frameworks */,
+				13A20705199E1998000CD69F /* libLightningTable.a in Frameworks */,
+				13A20702199E1998000CD69F /* UIKit.framework in Frameworks */,
+				13A20700199E1998000CD69F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A206E4199E1998000CD69F = {
+			isa = PBXGroup;
+			children = (
+				13A206F2199E1998000CD69F /* LightningTable */,
+				13A20706199E1998000CD69F /* LightningTableTests */,
+				13A206EF199E1998000CD69F /* Frameworks */,
+				13A206EE199E1998000CD69F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13A206EE199E1998000CD69F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13A206ED199E1998000CD69F /* libLightningTable.a */,
+				13A206FD199E1998000CD69F /* LightningTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13A206EF199E1998000CD69F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13A206F0199E1998000CD69F /* Foundation.framework */,
+				13A206FE199E1998000CD69F /* XCTest.framework */,
+				13A20701199E1998000CD69F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13A206F2199E1998000CD69F /* LightningTable */ = {
+			isa = PBXGroup;
+			children = (
+				13A206F5199E1998000CD69F /* LightningTable.h */,
+				13A20730199E19D9000CD69F /* View Controllers */,
+				13A20731199E19DF000CD69F /* Views */,
+				13A20732199E19E4000CD69F /* Protocols */,
+				13A20733199E19EC000CD69F /* Objects */,
+				13A206F3199E1998000CD69F /* Supporting Files */,
+			);
+			path = LightningTable;
+			sourceTree = "<group>";
+		};
+		13A206F3199E1998000CD69F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A206F4199E1998000CD69F /* LightningTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13A20706199E1998000CD69F /* LightningTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				13A2070C199E1998000CD69F /* LightningTableTests.m */,
+				13A20707199E1998000CD69F /* Supporting Files */,
+			);
+			path = LightningTableTests;
+			sourceTree = "<group>";
+		};
+		13A20707199E1998000CD69F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A20708199E1998000CD69F /* LightningTableTests-Info.plist */,
+				13A20709199E1998000CD69F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13A20730199E19D9000CD69F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				13A20722199E19D5000CD69F /* EKTableViewController.h */,
+				13A20723199E19D5000CD69F /* EKTableViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		13A20731199E19DF000CD69F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13A2071E199E19D5000CD69F /* EKTableView.h */,
+				13A2071F199E19D5000CD69F /* EKTableView.m */,
+				13A20720199E19D5000CD69F /* EKTableViewCell.h */,
+				13A20721199E19D5000CD69F /* EKTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		13A20732199E19E4000CD69F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				13A20718199E19D5000CD69F /* EKTableRowProtocol.h */,
+				13A2071D199E19D5000CD69F /* EKTableSectionProtocol.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		13A20733199E19EC000CD69F /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				13A20716199E19D5000CD69F /* EKTableRow.h */,
+				13A20717199E19D5000CD69F /* EKTableRow.m */,
+				13A20719199E19D5000CD69F /* EKTableRowSelection.h */,
+				13A2071A199E19D5000CD69F /* EKTableRowSelection.m */,
+				13A2071B199E19D5000CD69F /* EKTableSection.h */,
+				13A2071C199E19D5000CD69F /* EKTableSection.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13A206EC199E1998000CD69F /* LightningTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A20710199E1998000CD69F /* Build configuration list for PBXNativeTarget "LightningTable" */;
+			buildPhases = (
+				13A206E9199E1998000CD69F /* Sources */,
+				13A206EA199E1998000CD69F /* Frameworks */,
+				13A206EB199E1998000CD69F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightningTable;
+			productName = LightningTable;
+			productReference = 13A206ED199E1998000CD69F /* libLightningTable.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		13A206FC199E1998000CD69F /* LightningTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A20713199E1998000CD69F /* Build configuration list for PBXNativeTarget "LightningTableTests" */;
+			buildPhases = (
+				13A206F9199E1998000CD69F /* Sources */,
+				13A206FA199E1998000CD69F /* Frameworks */,
+				13A206FB199E1998000CD69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13A20704199E1998000CD69F /* PBXTargetDependency */,
+			);
+			name = LightningTableTests;
+			productName = LightningTableTests;
+			productReference = 13A206FD199E1998000CD69F /* LightningTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13A206E5199E1998000CD69F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Electric Kangaroo";
+			};
+			buildConfigurationList = 13A206E8199E1998000CD69F /* Build configuration list for PBXProject "⚡ LightningTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13A206E4199E1998000CD69F;
+			productRefGroup = 13A206EE199E1998000CD69F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A206EC199E1998000CD69F /* LightningTable */,
+				13A206FC199E1998000CD69F /* LightningTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13A206FB199E1998000CD69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A2070B199E1998000CD69F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13A206E9199E1998000CD69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A2072E199E19D5000CD69F /* EKTableViewController.m in Sources */,
+				13A20728199E19D5000CD69F /* EKTableSection.m in Sources */,
+				13A2072A199E19D5000CD69F /* EKTableView.m in Sources */,
+				13A20724199E19D5000CD69F /* EKTableRow.m in Sources */,
+				13A20726199E19D5000CD69F /* EKTableRowSelection.m in Sources */,
+				13A2072C199E19D5000CD69F /* EKTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A206F9199E1998000CD69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A2072F199E19D5000CD69F /* EKTableViewController.m in Sources */,
+				13A20729199E19D5000CD69F /* EKTableSection.m in Sources */,
+				13A2072B199E19D5000CD69F /* EKTableView.m in Sources */,
+				13A2070D199E1998000CD69F /* LightningTableTests.m in Sources */,
+				13A20725199E19D5000CD69F /* EKTableRow.m in Sources */,
+				13A20727199E19D5000CD69F /* EKTableRowSelection.m in Sources */,
+				13A2072D199E19D5000CD69F /* EKTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13A20704199E1998000CD69F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13A206EC199E1998000CD69F /* LightningTable */;
+			targetProxy = 13A20703199E1998000CD69F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13A20709199E1998000CD69F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A2070A199E1998000CD69F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13A2070E199E1998000CD69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13A2070F199E1998000CD69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13A20711199E1998000CD69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LightningTable.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightningTable/LightningTable-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		13A20712199E1998000CD69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LightningTable.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightningTable/LightningTable-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		13A20714199E1998000CD69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightningTable/LightningTable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LightningTableTests/LightningTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/LightningTable\"";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		13A20715199E1998000CD69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightningTable/LightningTable-Prefix.pch";
+				INFOPLIST_FILE = "LightningTableTests/LightningTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/LightningTable\"";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A206E8199E1998000CD69F /* Build configuration list for PBXProject "⚡ LightningTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A2070E199E1998000CD69F /* Debug */,
+				13A2070F199E1998000CD69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A20710199E1998000CD69F /* Build configuration list for PBXNativeTarget "LightningTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A20711199E1998000CD69F /* Debug */,
+				13A20712199E1998000CD69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A20713199E1998000CD69F /* Build configuration list for PBXNativeTarget "LightningTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A20714199E1998000CD69F /* Debug */,
+				13A20715199E1998000CD69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13A206E5199E1998000CD69F /* Project object */;
+}

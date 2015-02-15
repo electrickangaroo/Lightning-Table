@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		134F733F199F3AC800F694B5 /* EKDBasicDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134F733E199F3AC800F694B5 /* EKDBasicDemoViewController.m */; };
+		134F7343199F447C00F694B5 /* EKDCustomObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134F7342199F447C00F694B5 /* EKDCustomObjectViewController.m */; };
+		134F7347199F460100F694B5 /* EKDNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 134F7346199F460100F694B5 /* EKDNote.m */; };
+		134F734B199FC10A00F694B5 /* EKDCustomCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134F734A199FC10A00F694B5 /* EKDCustomCellViewController.m */; };
+		134F734E199FC7DC00F694B5 /* EKDCustomSliderRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 134F734D199FC7DC00F694B5 /* EKDCustomSliderRow.m */; };
+		134F7351199FC7F000F694B5 /* EKDCustomSliderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 134F7350199FC7F000F694B5 /* EKDCustomSliderTableViewCell.m */; };
+		13A20741199E1B01000CD69F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A20740199E1B01000CD69F /* Foundation.framework */; };
+		13A20743199E1B01000CD69F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A20742199E1B01000CD69F /* CoreGraphics.framework */; };
+		13A20745199E1B01000CD69F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A20744199E1B01000CD69F /* UIKit.framework */; };
+		13A2074B199E1B01000CD69F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13A20749199E1B01000CD69F /* InfoPlist.strings */; };
+		13A2074D199E1B01000CD69F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A2074C199E1B01000CD69F /* main.m */; };
+		13A20751199E1B01000CD69F /* EKDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A20750199E1B01000CD69F /* EKDAppDelegate.m */; };
+		13A20753199E1B01000CD69F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A20752199E1B01000CD69F /* Images.xcassets */; };
+		13A20770199E1B3B000CD69F /* libLightningTable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A2076F199E1B3B000CD69F /* libLightningTable.a */; };
+		13A20773199E1B9B000CD69F /* EKDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A20772199E1B9B000CD69F /* EKDRootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		134F733D199F3AC800F694B5 /* EKDBasicDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDBasicDemoViewController.h; sourceTree = "<group>"; };
+		134F733E199F3AC800F694B5 /* EKDBasicDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDBasicDemoViewController.m; sourceTree = "<group>"; };
+		134F7341199F447C00F694B5 /* EKDCustomObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDCustomObjectViewController.h; sourceTree = "<group>"; };
+		134F7342199F447C00F694B5 /* EKDCustomObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDCustomObjectViewController.m; sourceTree = "<group>"; };
+		134F7345199F460100F694B5 /* EKDNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDNote.h; sourceTree = "<group>"; };
+		134F7346199F460100F694B5 /* EKDNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDNote.m; sourceTree = "<group>"; };
+		134F7349199FC10A00F694B5 /* EKDCustomCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDCustomCellViewController.h; sourceTree = "<group>"; };
+		134F734A199FC10A00F694B5 /* EKDCustomCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDCustomCellViewController.m; sourceTree = "<group>"; };
+		134F734C199FC7DC00F694B5 /* EKDCustomSliderRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDCustomSliderRow.h; sourceTree = "<group>"; };
+		134F734D199FC7DC00F694B5 /* EKDCustomSliderRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDCustomSliderRow.m; sourceTree = "<group>"; };
+		134F734F199FC7F000F694B5 /* EKDCustomSliderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDCustomSliderTableViewCell.h; sourceTree = "<group>"; };
+		134F7350199FC7F000F694B5 /* EKDCustomSliderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDCustomSliderTableViewCell.m; sourceTree = "<group>"; };
+		13A2073D199E1B01000CD69F /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A20740199E1B01000CD69F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13A20742199E1B01000CD69F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13A20744199E1B01000CD69F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13A20748199E1B01000CD69F /* Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo-Info.plist"; sourceTree = "<group>"; };
+		13A2074A199E1B01000CD69F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13A2074C199E1B01000CD69F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13A2074E199E1B01000CD69F /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
+		13A2074F199E1B01000CD69F /* EKDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKDAppDelegate.h; sourceTree = "<group>"; };
+		13A20750199E1B01000CD69F /* EKDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKDAppDelegate.m; sourceTree = "<group>"; };
+		13A20752199E1B01000CD69F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13A20759199E1B01000CD69F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		13A2076F199E1B3B000CD69F /* libLightningTable.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLightningTable.a; path = "../build/Debug-iphoneos/libLightningTable.a"; sourceTree = "<group>"; };
+		13A20771199E1B9B000CD69F /* EKDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDRootViewController.h; sourceTree = "<group>"; };
+		13A20772199E1B9B000CD69F /* EKDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDRootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13A2073A199E1B01000CD69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A20770199E1B3B000CD69F /* libLightningTable.a in Frameworks */,
+				13A20743199E1B01000CD69F /* CoreGraphics.framework in Frameworks */,
+				13A20745199E1B01000CD69F /* UIKit.framework in Frameworks */,
+				13A20741199E1B01000CD69F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134F733C199F3A9100F694B5 /* Demo View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				134F7348199FC09800F694B5 /* Custom Cells */,
+				134F7340199F3CAC00F694B5 /* Basics */,
+				134F7344199F448200F694B5 /* Custom Objects */,
+			);
+			name = "Demo View Controllers";
+			sourceTree = "<group>";
+		};
+		134F7340199F3CAC00F694B5 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				134F733D199F3AC800F694B5 /* EKDBasicDemoViewController.h */,
+				134F733E199F3AC800F694B5 /* EKDBasicDemoViewController.m */,
+			);
+			name = Basics;
+			sourceTree = "<group>";
+		};
+		134F7344199F448200F694B5 /* Custom Objects */ = {
+			isa = PBXGroup;
+			children = (
+				134F7341199F447C00F694B5 /* EKDCustomObjectViewController.h */,
+				134F7342199F447C00F694B5 /* EKDCustomObjectViewController.m */,
+				134F7345199F460100F694B5 /* EKDNote.h */,
+				134F7346199F460100F694B5 /* EKDNote.m */,
+			);
+			name = "Custom Objects";
+			sourceTree = "<group>";
+		};
+		134F7348199FC09800F694B5 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				134F7349199FC10A00F694B5 /* EKDCustomCellViewController.h */,
+				134F734A199FC10A00F694B5 /* EKDCustomCellViewController.m */,
+				134F734C199FC7DC00F694B5 /* EKDCustomSliderRow.h */,
+				134F734D199FC7DC00F694B5 /* EKDCustomSliderRow.m */,
+				134F734F199FC7F000F694B5 /* EKDCustomSliderTableViewCell.h */,
+				134F7350199FC7F000F694B5 /* EKDCustomSliderTableViewCell.m */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		13A20734199E1B01000CD69F = {
+			isa = PBXGroup;
+			children = (
+				13A20746199E1B01000CD69F /* Demo */,
+				13A2073F199E1B01000CD69F /* Frameworks */,
+				13A2073E199E1B01000CD69F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13A2073E199E1B01000CD69F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13A2073D199E1B01000CD69F /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13A2073F199E1B01000CD69F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13A2076F199E1B3B000CD69F /* libLightningTable.a */,
+				13A20740199E1B01000CD69F /* Foundation.framework */,
+				13A20742199E1B01000CD69F /* CoreGraphics.framework */,
+				13A20744199E1B01000CD69F /* UIKit.framework */,
+				13A20759199E1B01000CD69F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13A20746199E1B01000CD69F /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				13A2074F199E1B01000CD69F /* EKDAppDelegate.h */,
+				13A20750199E1B01000CD69F /* EKDAppDelegate.m */,
+				13A20771199E1B9B000CD69F /* EKDRootViewController.h */,
+				13A20772199E1B9B000CD69F /* EKDRootViewController.m */,
+				134F733C199F3A9100F694B5 /* Demo View Controllers */,
+				13A20752199E1B01000CD69F /* Images.xcassets */,
+				13A20747199E1B01000CD69F /* Supporting Files */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		13A20747199E1B01000CD69F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A20748199E1B01000CD69F /* Demo-Info.plist */,
+				13A20749199E1B01000CD69F /* InfoPlist.strings */,
+				13A2074C199E1B01000CD69F /* main.m */,
+				13A2074E199E1B01000CD69F /* Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13A2073C199E1B01000CD69F /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A20769199E1B01000CD69F /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				13A20739199E1B01000CD69F /* Sources */,
+				13A2073A199E1B01000CD69F /* Frameworks */,
+				13A2073B199E1B01000CD69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 13A2073D199E1B01000CD69F /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13A20735199E1B01000CD69F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EKD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Electric Kangaroo";
+			};
+			buildConfigurationList = 13A20738199E1B01000CD69F /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13A20734199E1B01000CD69F;
+			productRefGroup = 13A2073E199E1B01000CD69F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A2073C199E1B01000CD69F /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13A2073B199E1B01000CD69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A2074B199E1B01000CD69F /* InfoPlist.strings in Resources */,
+				13A20753199E1B01000CD69F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13A20739199E1B01000CD69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A2074D199E1B01000CD69F /* main.m in Sources */,
+				134F7351199FC7F000F694B5 /* EKDCustomSliderTableViewCell.m in Sources */,
+				134F734E199FC7DC00F694B5 /* EKDCustomSliderRow.m in Sources */,
+				134F733F199F3AC800F694B5 /* EKDBasicDemoViewController.m in Sources */,
+				13A20751199E1B01000CD69F /* EKDAppDelegate.m in Sources */,
+				13A20773199E1B9B000CD69F /* EKDRootViewController.m in Sources */,
+				134F7347199F460100F694B5 /* EKDNote.m in Sources */,
+				134F734B199FC10A00F694B5 /* EKDCustomCellViewController.m in Sources */,
+				134F7343199F447C00F694B5 /* EKDCustomObjectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13A20749199E1B01000CD69F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A2074A199E1B01000CD69F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13A20767199E1B01000CD69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13A20768199E1B01000CD69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13A2076A199E1B01000CD69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../LightningTable\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13A2076B199E1B01000CD69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../LightningTable\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A20738199E1B01000CD69F /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A20767199E1B01000CD69F /* Debug */,
+				13A20768199E1B01000CD69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A20769199E1B01000CD69F /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A2076A199E1B01000CD69F /* Debug */,
+				13A2076B199E1B01000CD69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13A20735199E1B01000CD69F /* Project object */;
+}
